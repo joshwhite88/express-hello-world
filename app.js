@@ -8,7 +8,7 @@ const server = app.listen(port, () => console.log(`Example app listening on port
 
 // Add a new route for the health endpoint 
 app.get("/health", (req, res) => { 
-  res.sendStatus(200); 
+  res.sendStatus(200);
 });
 
 server.keepAliveTimeout = 120 * 1000;
